@@ -78,7 +78,7 @@ class TestAPI:
 
     @pytest.mark.parametrize('breeds', [APIClient().get_random_breed() for _ in range(3)])
     def test_sub_breed(self, breeds):
-        '''Сервер должен вовращать лист подпород для переданной породы..'''
+        '''Сервер должен вовращать лист подпород для переданной породы.'''
         sub_breed = APIClient.get_sub_breed_list(APIClient(), breeds)
         assert isinstance(sub_breed, list)
 
