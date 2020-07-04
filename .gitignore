@@ -1,5 +1,6 @@
 # My
 *NTP/
+venv/
 Lib/
 Scripts/
 pyvenv.cfg
