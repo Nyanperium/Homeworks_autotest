@@ -3,6 +3,7 @@
 venv/
 Lib/
 Scripts/
+less5/variables.py
 pyvenv.cfg
 
 

@@ -1,0 +1,1 @@
+Создайте файл variables.py в этой папке и запишите Ваш адресс Opencart в переменную opencart_adress.

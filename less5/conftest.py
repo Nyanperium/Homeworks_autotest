@@ -1,11 +1,12 @@
 import pytest
 from selenium import webdriver
+from variables import *
 
 
 def pytest_addoption(parser):
     '''Добавляем параметры адресс сайта и браузер,
     получаемые из командной строки, для запуска тестов'''
-    parser.addoption('--address', action='store', default='https://192.168.0.101')
+    parser.addoption('--address', action='store', default=opencart_adress)
     parser.addoption('--browser', action='store', default='chrome')
 
 
