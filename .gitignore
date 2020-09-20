@@ -4,6 +4,7 @@ venv/
 Lib/
 Scripts/
 less5/variables.py
+less6+project/variables.py
 pyvenv.cfg
 
 
